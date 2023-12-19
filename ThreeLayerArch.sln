@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeLayerArch.Data", "src\ThreeLayerArch.Data\ThreeLayerArch.Data.csproj", "{05C428E0-7C87-4021-9997-0288A5102869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeLayerArch.Business", "src\ThreeLayerArch.Business\ThreeLayerArch.Business.csproj", "{6EE97510-3838-4602-8C9B-5AD26F7AD54A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeLayerArch.API", "src\ThreeLayerArch.API\ThreeLayerArch.API.csproj", "{2BF700D6-69B9-4588-8756-FE1BD72D6FCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{586E1BAD-1C6D-48C1-92D6-6BDE3BF1EDD8}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		docker-compose.yaml = docker-compose.yaml
+		Makefile = Makefile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05C428E0-7C87-4021-9997-0288A5102869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C428E0-7C87-4021-9997-0288A5102869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C428E0-7C87-4021-9997-0288A5102869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C428E0-7C87-4021-9997-0288A5102869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EE97510-3838-4602-8C9B-5AD26F7AD54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE97510-3838-4602-8C9B-5AD26F7AD54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE97510-3838-4602-8C9B-5AD26F7AD54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE97510-3838-4602-8C9B-5AD26F7AD54A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BF700D6-69B9-4588-8756-FE1BD72D6FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BF700D6-69B9-4588-8756-FE1BD72D6FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BF700D6-69B9-4588-8756-FE1BD72D6FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BF700D6-69B9-4588-8756-FE1BD72D6FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
